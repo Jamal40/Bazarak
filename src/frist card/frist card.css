@@ -1,0 +1,145 @@
+.frist {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  height: 210px;
+  margin-bottom: 7em;
+}
+.one1 {
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://besthqwallpapers.com/img/original/115420/dubai-evening-skyscrapers-modern-buildings-cityscape.jpg");
+  background-size: cover;
+
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.two2 {
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM6XNxR44XvUo18KYPxXtyuX7_Pg43TLteyA&usqp=CAU");
+  background-size: cover;
+  -webkit-border-radius: 8%;
+  -moz-border-radius: 8%;
+  -ms-border-radius: 8%;
+  -o-border-radius: 8%;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.three3 {
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://i.insider.com/5cd59924021b4c043a3cdae4?width=1136&format=jpeg");
+  background-size: cover;
+  -webkit-border-radius: 8%;
+  -moz-border-radius: 8%;
+  -ms-border-radius: 8%;
+  -o-border-radius: 8%;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.four4 {
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://t3.ftcdn.net/jpg/02/45/64/98/360_F_245649823_IfHt7N8BRdzUsL6M20324iY2ep3TVWde.jpg");
+  background-size: cover;
+  -webkit-border-radius: 8%;
+  -moz-border-radius: 8%;
+  -ms-border-radius: 8%;
+  -o-border-radius: 8%;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+:root {
+  --slider-diameter: 45px;
+}
+.circle-icon-contianer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slider-diameter);
+  width: var(--slider-diameter);
+  border-radius: 50%;
+  background-color: white;
+  color: #fb9027;
+  box-shadow: 0px 4px 15px -2px rgba(0, 0, 0, 0.31);
+  transition: background-color 0.3s;
+}
+.circle-icon-contianer i {
+  transition: color 0.3s;
+}
+.circle-icon-contianer:hover {
+  background-color: #fb9027;
+  color: white;
+  cursor: pointer;
+}
+.circle-icon-contianer:hover i {
+  color: white;
+}
+
+@media (max-width: 1150px) {
+  .two2 {
+    display: none;
+  }
+  .three3 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .four4 {
+    display: none;
+  }
+}

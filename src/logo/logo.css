@@ -1,0 +1,83 @@
+:root {
+  --logo-height: 70px;
+  --logo-width: 150px;
+  --circle-height: 40px;
+  --color: #fb9027;
+}
+@media (max-width: 965px) {
+  :root {
+    --logo-height: 140px;
+    --logo-width: 300px;
+    --circle-height: 80px;
+    --color: #fb9027;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.footer-logo-container {
+  width: 100%;
+}
+.footer-logo {
+  position: relative;
+  margin: auto;
+  width: var(--logo-width);
+  height: var(--logo-height);
+  background-color: white;
+}
+.text-logo {
+  line-height: var(--logo-height);
+  text-align: center;
+  font-size: 1rem;
+  color: #fb9027;
+  margin: 0;
+}
+
+.vertical-circle {
+  margin: auto;
+  position: relative;
+  background-color: var(--color);
+  width: calc(1.25 * var(--logo-width));
+  height: var(--circle-height);
+  border-radius: 50%;
+  z-index: 1;
+}
+.upper-circle {
+  top: calc(var(--circle-height) / 2);
+}
+
+.lower-circle {
+  bottom: calc(var(--circle-height) / 2);
+}
+
+.horz-circle {
+  margin: auto;
+  position: absolute;
+  background-color: var(--color);
+  width: var(--circle-height);
+  height: var(--logo-height);
+  border-radius: 50%;
+}
+
+.left-circle {
+  left: calc(var(--circle-height) / -2);
+}
+
+.right-circle {
+  top: 0;
+  right: calc(var(--circle-height) / -2);
+}
+
+.fb:hover {
+  fill: #1877f2;
+  cursor: pointer;
+}
+.tw:hover {
+  fill: #1da1f2;
+  cursor: pointer;
+}
+.insta:hover {
+  fill: #cb3081;
+  cursor: pointer;
+}
